@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-import aws_cdk as cdk
+from aws_cdk import core
 
 from aws_sdk_test.aws_sdk_test_stack import AwsSdkTestStack
 
 
-app = cdk.App()
+app = core.App()
 AwsSdkTestStack(app, "aws-sdk-test")
 
 app.synth()

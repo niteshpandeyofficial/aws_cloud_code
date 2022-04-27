@@ -43,6 +43,12 @@ At this point you can now synthesize the CloudFormation template for this code.
 $ cdk synth
 ```
 
+TO destroy the the stacks and close the everthing below command is used.
+
+```
+cdk destroy aws_sdk_test
+```
+
 You can now begin exploring the source code, contained in the hello directory.
 There is also a very trivial test included that can be run like this:
 
@@ -56,6 +62,7 @@ command.
 
 ## Useful commands
 
+ * `aws configure`   to login the aws account programically.
  * `cdk ls`          list all stacks in the app
  * `cdk synth`       emits the synthesized CloudFormation template
  * `cdk deploy`      deploy this stack to your default AWS account/region
