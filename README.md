@@ -46,7 +46,7 @@ $ cdk synth
 TO destroy the the stacks and close the everthing below command is used.
 
 ```
-cdk destroy aws_sdk_test
+$ cdk destroy aws_sdk_test
 ```
 
 You can now begin exploring the source code, contained in the hello directory.
